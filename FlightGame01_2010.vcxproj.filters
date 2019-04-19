@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ENGINE">
+      <UniqueIdentifier>{55c282c9-f49c-4e09-9e44-d45b8fdf77f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object">
+      <UniqueIdentifier>{849c0a13-76c9-4d3c-b6f3-77efec148fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Header">
+      <UniqueIdentifier>{14097054-c730-4715-808b-e77950a2f271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Message">
+      <UniqueIdentifier>{7f33665f-a216-469c-8dfb-571dbd71a773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Scene">
+      <UniqueIdentifier>{eb8a8d21-1dd4-4de6-af54-c7544be33cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="ENGINE\DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="ENGINE\Object\Component">
+      <UniqueIdentifier>{efa7970e-8d78-44a8-8255-3822d5f539e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Component\Renderer">
+      <UniqueIdentifier>{192f3f45-b791-4896-8156-6c45c8653181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\GameObject">
+      <UniqueIdentifier>{9e6b3983-1ee5-4620-a0d3-101aa8c2f43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Component\Transform">
+      <UniqueIdentifier>{35c6c5db-e0b5-4f73-8140-af798268a786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Component\Renderer\CMeshRenderer">
+      <UniqueIdentifier>{9a5a2180-b639-4f17-ac30-983257dfa36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Managers">
+      <UniqueIdentifier>{e7e7c70e-fb8f-44ed-9646-7a5a8eaec08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Managers\Singleton">
+      <UniqueIdentifier>{8ba4701c-2af2-4cd5-b339-2218e88f4dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Managers\SceneManager">
+      <UniqueIdentifier>{14e3d5c4-a85d-4322-882f-a9efa68d1711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Managers\EntityManager">
+      <UniqueIdentifier>{6ec89f97-ce21-4759-ab97-cc6f72f80a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Managers\ResourceManager">
+      <UniqueIdentifier>{29476d2e-8808-43a9-93bf-ba0c60c7b280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Loader">
+      <UniqueIdentifier>{5c4118ca-0841-4644-ad57-d33884c1c815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Loader\OBJLoader">
+      <UniqueIdentifier>{6467f189-7eac-4172-aa34-44115bdf81ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Component\Renderer\CSpriteRenderer">
+      <UniqueIdentifier>{c0c7e8ec-cf39-4f25-a4bf-ace45cf34fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Managers\CameraManager">
+      <UniqueIdentifier>{554712e5-558a-4ad9-af33-3417fc285a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Texture">
+      <UniqueIdentifier>{d99cb798-ff94-4e79-8603-7730fae34d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Managers\InputManager">
+      <UniqueIdentifier>{08466aa7-161f-4144-b193-a261ec6f7863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Component\Transform\Transform2D">
+      <UniqueIdentifier>{b481bf8a-12e8-4c64-8662-8a0ded914d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Component\Collider">
+      <UniqueIdentifier>{51f34f61-663d-4cbc-8d8c-88d81f7c934f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Component\Collider\Collider2D">
+      <UniqueIdentifier>{c4df788c-b0db-4260-b2a3-7b4fe318169d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Managers\CollisionManager">
+      <UniqueIdentifier>{09f61b46-6b76-4fa2-bcbd-3954f5c5e5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Component\Rigidbody2D">
+      <UniqueIdentifier>{e1de06ca-800b-4fd7-8925-5434bb7efb34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME">
+      <UniqueIdentifier>{211aae6e-b191-45a5-b7ed-8a3b854bce08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Maingame">
+      <UniqueIdentifier>{6b12e761-c105-4fba-a417-99dd03644d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Scenes">
+      <UniqueIdentifier>{d8f04686-76ed-41b0-a39b-cea0d83629a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Scenes\TItleScene">
+      <UniqueIdentifier>{203a6487-d1ba-430d-a3fa-e739b40ef2df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components">
+      <UniqueIdentifier>{234e45f4-c673-44ac-bc74-4037fab82121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\Player">
+      <UniqueIdentifier>{947f8ada-ce21-4ff5-a48c-4025c9344a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\ScrollBackground">
+      <UniqueIdentifier>{a33f94b7-769c-4ddd-979e-b12c9d299e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\WaveRenderer">
+      <UniqueIdentifier>{1a2369f3-d21b-42b5-8d9a-309e369c1869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\Obstacle">
+      <UniqueIdentifier>{ecd597e1-8646-45c9-9c63-5b26c26a4655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\SlowMoveBackground">
+      <UniqueIdentifier>{28925651-f0ca-42f8-b063-8c16e672cc79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\Enemy">
+      <UniqueIdentifier>{b22a8dd3-49bc-427a-8028-2451a7305f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\Enemy\Conch">
+      <UniqueIdentifier>{3b169abd-5408-4cc2-a3c8-1133274244a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\Enemy\Fish">
+      <UniqueIdentifier>{7ceeb4ec-4547-4c3c-9e44-b6c436e58e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\Boss">
+      <UniqueIdentifier>{99b20202-00f3-4fcd-a4f3-d17cecf3a07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\Boss\Stage1Middle">
+      <UniqueIdentifier>{afcf0efd-19b9-453e-80e2-c4674b7ee82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Component\LifeMachine">
+      <UniqueIdentifier>{8cdb2247-30bf-4bcc-97c8-f8f458dacb55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\Obstacle\Pipe">
+      <UniqueIdentifier>{bf9d25f2-9c3f-4a7e-bd59-2bb243cb1065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\StageAdmin">
+      <UniqueIdentifier>{9c7adb29-990f-4901-8f4d-f52a6f09d1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Managers\SoundManager">
+      <UniqueIdentifier>{492b2856-45bd-4dac-8629-4fc2eea10ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\Boss\Stage1Final">
+      <UniqueIdentifier>{8f3e33e7-3cf1-4038-a4e9-ac1287d53b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\Bullet">
+      <UniqueIdentifier>{480e626d-fa1c-45d0-92e5-3c95c00b43bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\Bullet\Player">
+      <UniqueIdentifier>{c47cd298-f831-4885-87ef-eeebb68b9f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\Bullet\Enemy">
+      <UniqueIdentifier>{4e22810f-7e82-46e2-9b69-21bc126823dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\GageBar">
+      <UniqueIdentifier>{9bc6f192-729e-444e-bd32-61c5fe621473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Scenes\Stage1">
+      <UniqueIdentifier>{5df3215d-ddd5-440e-80f7-64d57ad76f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Custom Components\TitleObject">
+      <UniqueIdentifier>{aa4bd786-7b64-4ba3-8986-fb3676b8bcbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Object\Component\StateMachine">
+      <UniqueIdentifier>{78fd6fba-77f9-440a-930a-84b083ec3bad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>ENGINE\Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CMaingame.cpp">
+      <Filter>GAME\Maingame</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>ENGINE\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CMessage.cpp">
+      <Filter>ENGINE\Object\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>ENGINE\Object\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightGame01.cpp">
+      <Filter>ENGINE</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleScene.cpp">
+      <Filter>GAME\Scenes\TItleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseComponent.cpp">
+      <Filter>ENGINE\Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseRenderer.cpp">
+      <Filter>ENGINE\Object\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObject.cpp">
+      <Filter>ENGINE\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseTransform.cpp">
+      <Filter>ENGINE\Object\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeshRenderer.cpp">
+      <Filter>ENGINE\Object\Component\Renderer\CMeshRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CSingleton.cpp">
+      <Filter>ENGINE\Managers\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>ENGINE\Managers\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntityManager.cpp">
+      <Filter>ENGINE\Managers\EntityManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceManager.cpp">
+      <Filter>ENGINE\Managers\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraManager.cpp">
+      <Filter>ENGINE\Managers\CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJLoader.cpp">
+      <Filter>ENGINE\Object\Loader\OBJLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ENGINE\Object\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CInputManager.cpp">
+      <Filter>ENGINE\Managers\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>GAME\Custom Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpriteRenderer.cpp">
+      <Filter>ENGINE\Object\Component\Renderer\CSpriteRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CTransform2D.cpp">
+      <Filter>ENGINE\Object\Component\Transform\Transform2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Typedef.cpp">
+      <Filter>ENGINE\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseCollider.cpp">
+      <Filter>ENGINE\Object\Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionManager.cpp">
+      <Filter>ENGINE\Managers\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider2D.cpp">
+      <Filter>ENGINE\Object\Component\Collider\Collider2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CScrollBackground.cpp">
+      <Filter>GAME\Custom Components\ScrollBackground</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaveRenderer.cpp">
+      <Filter>GAME\Custom Components\WaveRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CRigidbody2D.cpp">
+      <Filter>ENGINE\Object\Component\Rigidbody2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CObstacle.cpp">
+      <Filter>GAME\Custom Components\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="CSlowMoveBackground.cpp">
+      <Filter>GAME\Custom Components\SlowMoveBackground</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateMachine.cpp">
+      <Filter>ENGINE\Object\Component\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="CConch.cpp">
+      <Filter>GAME\Custom Components\Enemy\Conch</Filter>
+    </ClCompile>
+    <ClCompile Include="CFish.cpp">
+      <Filter>GAME\Custom Components\Enemy\Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="Func.cpp">
+      <Filter>ENGINE\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="COctopus.cpp">
+      <Filter>GAME\Custom Components\Boss\Stage1Middle</Filter>
+    </ClCompile>
+    <ClCompile Include="CLifeMacine.cpp">
+      <Filter>ENGINE\Object\Component\LifeMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="CPipe.cpp">
+      <Filter>GAME\Custom Components\Obstacle\Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="CStageAdmin.cpp">
+      <Filter>GAME\Custom Components\StageAdmin</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundManager.cpp">
+      <Filter>ENGINE\Managers\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CPianus.cpp">
+      <Filter>GAME\Custom Components\Boss\Stage1Final</Filter>
+    </ClCompile>
+    <ClCompile Include="CBullet.cpp">
+      <Filter>GAME\Custom Components\Bullet\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CTargetBullet.cpp">
+      <Filter>GAME\Custom Components\Bullet\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CCoconut.cpp">
+      <Filter>GAME\Custom Components\Bullet\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CTentacle.cpp">
+      <Filter>GAME\Custom Components\Bullet\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CLaser.cpp">
+      <Filter>GAME\Custom Components\Bullet\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoneFish.cpp">
+      <Filter>GAME\Custom Components\Bullet\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CGageBar.cpp">
+      <Filter>GAME\Custom Components\GageBar</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage1.cpp">
+      <Filter>GAME\Scenes\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleObject.cpp">
+      <Filter>GAME\Custom Components\TitleObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>ENGINE\Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="FlightGame01.rc">
+      <Filter>ENGINE\Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="CMaingame.h">
+      <Filter>GAME\Maingame</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>ENGINE\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Typedef.h">
+      <Filter>ENGINE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>ENGINE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CMessage.h">
+      <Filter>ENGINE\Object\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Func.h">
+      <Filter>ENGINE\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>ENGINE\Object\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleScene.h">
+      <Filter>GAME\Scenes\TItleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseComponent.h">
+      <Filter>ENGINE\Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseRenderer.h">
+      <Filter>ENGINE\Object\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObject.h">
+      <Filter>ENGINE\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseTransform.h">
+      <Filter>ENGINE\Object\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeshRenderer.h">
+      <Filter>ENGINE\Object\Component\Renderer\CMeshRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingleton.h">
+      <Filter>ENGINE\Managers\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>ENGINE\Managers\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntityManager.h">
+      <Filter>ENGINE\Managers\EntityManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceManager.h">
+      <Filter>ENGINE\Managers\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraManager.h">
+      <Filter>ENGINE\Managers\CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoader.h">
+      <Filter>ENGINE\Object\Loader\OBJLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ENGINE\Object\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CInputManager.h">
+      <Filter>ENGINE\Managers\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>GAME\Custom Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpriteRenderer.h">
+      <Filter>ENGINE\Object\Component\Renderer\CSpriteRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CTransform2D.h">
+      <Filter>ENGINE\Object\Component\Transform\Transform2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseCollider.h">
+      <Filter>ENGINE\Object\Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionManager.h">
+      <Filter>ENGINE\Managers\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider2D.h">
+      <Filter>ENGINE\Object\Component\Collider\Collider2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CScrollBackground.h">
+      <Filter>GAME\Custom Components\ScrollBackground</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaveRenderer.h">
+      <Filter>GAME\Custom Components\WaveRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CRigidbody2D.h">
+      <Filter>ENGINE\Object\Component\Rigidbody2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CObstacle.h">
+      <Filter>GAME\Custom Components\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="CSlowMoveBackground.h">
+      <Filter>GAME\Custom Components\SlowMoveBackground</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateMachine.h">
+      <Filter>ENGINE\Object\Component\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="CConch.h">
+      <Filter>GAME\Custom Components\Enemy\Conch</Filter>
+    </ClInclude>
+    <ClInclude Include="CFish.h">
+      <Filter>GAME\Custom Components\Enemy\Fish</Filter>
+    </ClInclude>
+    <ClInclude Include="COctopus.h">
+      <Filter>GAME\Custom Components\Boss\Stage1Middle</Filter>
+    </ClInclude>
+    <ClInclude Include="CLifeMacine.h">
+      <Filter>ENGINE\Object\Component\LifeMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="CPipe.h">
+      <Filter>GAME\Custom Components\Obstacle\Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="CStageAdmin.h">
+      <Filter>GAME\Custom Components\StageAdmin</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundManager.h">
+      <Filter>ENGINE\Managers\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CPianus.h">
+      <Filter>GAME\Custom Components\Boss\Stage1Final</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet.h">
+      <Filter>GAME\Custom Components\Bullet\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CTargetBullet.h">
+      <Filter>GAME\Custom Components\Bullet\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CCoconut.h">
+      <Filter>GAME\Custom Components\Bullet\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CTentacle.h">
+      <Filter>GAME\Custom Components\Bullet\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CLaser.h">
+      <Filter>GAME\Custom Components\Bullet\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoneFish.h">
+      <Filter>GAME\Custom Components\Bullet\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CGageBar.h">
+      <Filter>GAME\Custom Components\GageBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage1.h">
+      <Filter>GAME\Scenes\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleObject.h">
+      <Filter>GAME\Custom Components\TitleObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
